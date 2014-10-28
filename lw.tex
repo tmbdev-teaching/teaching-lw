@@ -1,0 +1,159 @@
+\documentclass{book}
+\usepackage{graphicx}
+\usepackage{appendix}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{color}
+\definecolor{mylight}{rgb}{0.9,0.9,0.9}
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{myblue}{rgb}{0,0,0.6}
+\definecolor{mygray}{rgb}{0.6,0.6,0.6}
+\definecolor{myviolet}{rgb}{0.6,0,0.6}
+\lstset{ %
+backgroundcolor=\color{mylight}, %
+basicstyle=\ttfamily\fontsize{8pt}{8pt}, %
+breakatwhitespace=false, %
+breaklines=true, %
+captionpos=b, %
+commentstyle=\color{mygreen}, %
+frame=single, %
+keywordstyle=\color{myblue}, %
+language=Python, %
+numbers=left, %
+numbersep=5pt, %
+numberstyle=\tiny\color{mygray}, %
+showspaces=false, %
+tabsize=2, %
+stringstyle=\color{myviolet} %
+}
+\parindent0ex
+\parsep1ex
+\parskip1ex
+\title{Learning and Perception \\ Lecture Notes}
+\author{Thomas M. Breuel}
+\begin{document}
+\maketitle
+For teaching only.
+Please do not distribute outside the university.
+\tableofcontents
+
+\part{Image Processing}
+
+\chapter{Cameras and Eyes}
+\include{003-cameras-and-eyes}
+
+\chapter{Images}
+\include{005-images-as-arrays}
+
+\chapter{Linear Filters}
+\include{010-linear-filters}
+
+\chapter{Gradient Filters}
+\include{012-gradient-filters}
+
+\chapter{Anisotropic Filters}
+\include{014-anisotropic-filters}
+
+\chapter{Frequency Domain}
+\include{020-frequency-domain}
+
+\chapter{The Fourier Transform}
+\include{025-fourier-transform}
+
+\chapter{Image Compression}
+\include{027-image-compression}
+
+\chapter{Nonlinear Filters}
+\include{030-nonlinear-filters}
+\include{033-document-normalization}
+
+\chapter{Mathematical Morphology}
+\include{035-binary-morphology}
+
+\chapter{Grayscale Morphology}
+\include{037-grayscale-morphology}
+
+\chapter{Grayscale Morphology in 1D}
+\include{038-1d-grayscale-morphology}
+
+\chapter{Distance Transform}
+\include{042-distance-transform}
+
+\chapter{Labeling}
+\include{045-labeling}
+
+\chapter{Template Matching}
+\include{070-template-matching}
+
+\part{Pattern Recognition}
+
+\chapter{Classification}
+\include{101-intro-classification}
+
+\chapter{Nearest Neighbor}
+\include{102-nearest-neighbor-and-preproc}
+
+\chapter{Probability Review}
+\include{105-simple-probability}
+
+\chapter{Bayesian Decision Theory}
+\include{107-bayesian-decision-theory}
+
+\chapter{Parametric Gaussian Classifier}
+\include{118-parametric-gaussian-classifier}
+
+\chapter{Decision Regions for Normal Densities}
+\include{120-normal-decision-regions}
+
+\chapter{Perceptrons}
+\include{125-perceptrons}
+
+\chapter{Linear Least Squares}
+\include{126-linear-lsq}
+
+\chapter{Logistic Regression and Gradient Descent}
+\include{127-logistic-regression-grad}
+
+\chapter{Nonlinear Classifiers}
+\include{128-linear-to-nonlinear}
+
+\chapter{$k$-Means}
+\include{130-kmeans}
+
+\chapter{Principal Component Analysis}
+\include{135-simple-pca}
+
+\part{Applications}
+
+\chapter{Classification}
+\include{140-summary-classifiers}
+
+\chapter{Speech}
+\include{150-speech-worksheet}
+
+\chapter{Fourier Transforms}
+\include{160-fourier-transform}
+
+\chapter{Dynamic Time Warping}
+\include{170-dtw}
+
+\chapter{Markov Models}
+\include{180-markov-models}
+
+\chapter{Hidden Markov Models}
+\include{185-hmm-ocr}
+
+\appendix
+
+\part{Appendix}
+
+\chapter{Python}
+\include{200-intro-python}
+
+\chapter{Linear Symmetric Systems}
+\include{205-quadratics}
+
+\chapter{Normal Distributions}
+\include{210-normal-distributions}
+
+\end{document}

@@ -1,0 +1,62 @@
+HOMEWORK
+========
+
+Most of the code for the following functions is already in the lecture notes.  You
+need to pull it out and put it together in some functions.  You need no extra libraries
+beyond what was covered in lecture.
+
+1. Implement convolution using the fft2/ifft2 functions.  Your function should look like
+
+   def fftconvolve(image,mask):
+       ...
+
+Image and mask are allowed to be different sizes, so you need to do something about the
+mask.  The easiest is to pad the mask so that it is the same size as the image.
+
+2. Implement an image standardization function.  That is, a function that, given
+a rectangle size b=(bw,bh) replaces each pixel by subtracting the mean over that
+rectangle from the pixel and then divides the result by the norm of the patch.
+
+    def standardize(image,b):
+        ...
+
+Implement the convolutions necessary for standardization using fftconvolve above.
+
+3. Implement normalized cross correlation using your fftconvolve function and the
+standardize function you defined above.
+
+    def ncc(image,template):
+        ...
+
+Output the image.  Demonstrate your function on the w.png image and letter
+templates you obtain using the charread.py file (you may want to look at it).
+
+    import charread
+    chars = charread.charread()
+    imshow(chars[17][0])
+    imshow(chars[17][5])
+
+Note that you need to run ncc on page images with black background (why?).
+
+OPTIONAL
+=========
+
+The following two problems are a lot more work, but quite rewarding.
+
+4. Implement normalized cross correlation using multiple templates.
+
+    def nccs(image,templates):
+        ...
+
+This works like the function above but returns a list of normalized cross correlations,
+one for each template.  This makes the simplifying assumption that it is sufficient
+to standardize the input image only once with parameters that are about right for all the
+templates (use the mean width and mean height).  Furthermore, the Fourier transform
+of the standardized image for the convolution step needs to be carried out only once.
+
+5. Compute normalized cross-correlations for all the templates and try to 
+label all the characters in the input image uniquely (i.e., so that there is only
+one peak/output per input character).  Remember that you know the approximate size
+of all the characters, and they are all about the same size..
+
+6. Try to find a way of outputting the characters in reading order (hard!).

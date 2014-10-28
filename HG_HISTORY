@@ -1,0 +1,203 @@
+changeset:   24:fe6a06e781af
+tag:         tip
+user:        Tom <tmbdev@gmail.com>
+date:        Fri Oct 24 01:22:31 2014 -0700
+files:       README.md
+description:
+added README
+
+
+changeset:   23:a0448db6155a
+user:        Tom <tmb@ixion.local>
+date:        Fri Jul 19 14:48:19 2013 +0200
+files:       108-bayesian-parameter-estimation.ipynb 110-parametric-gaussian-classifier.ipynb 111-normal-decision-regions.ipynb 118-parametric-gaussian-classifier.ipynb 205-quadratics.ipynb 220-bayesian-parameter-estimation.ipynb lw.tex
+description:
+bug fixes
+
+
+changeset:   22:d7f13694a2e9
+parent:      21:170a07d8441a
+parent:      20:12e8f3f69da4
+user:        Tom <tmb@ixion.local>
+date:        Fri Jul 19 12:53:23 2013 +0200
+description:
+merged
+
+
+changeset:   21:170a07d8441a
+parent:      18:3b18cade6654
+user:        Tom <tmb@ixion.local>
+date:        Fri Jul 19 12:53:14 2013 +0200
+files:       111-normal-decision-regions.ipynb 125-perceptrons.ipynb 128-linear-to-nonlinear.ipynb tmp.png
+description:
+updated
+
+
+changeset:   20:12e8f3f69da4
+user:        tmb@localhost
+date:        Fri Jul 12 05:38:34 2013 +0200
+files:       205-quadratics.ipynb 210-normal-distributions.ipynb
+description:
+fixes
+
+
+changeset:   19:93ff722b5ba2
+user:        Tom <tmb@ixion.local>
+date:        Thu Jul 11 16:25:58 2013 +0200
+files:       205-quadratics.ipynb 210-normal-distributions.ipynb
+description:
+updated
+
+
+changeset:   18:3b18cade6654
+user:        Tom <tmb@ixion.local>
+date:        Thu Jul 11 10:42:13 2013 +0200
+files:       105-simple-probability.ipynb 107-bayesian-decision-theory.ipynb 108-bayesian-parameter-estimation.ipynb 110-parametric-gaussian-classifier.ipynb 111-normal-decision-regions.ipynb 205-quadratics.ipynb 210-normal-distributions.ipynb lw.tex
+description:
+added notebooks on Gaussian
+
+
+changeset:   17:fb35801ff2df
+user:        Tom <tmb@ixion.local>
+date:        Mon Jul 08 09:43:33 2013 +0200
+files:       033-document-normalization.ipynb 035-binary-morphology.ipynb 037-grayscale-morphology.ipynb 042-distance-transform.ipynb 045-labeling.ipynb 070-template-matching.ipynb 101-intro-classification.ipynb 102-nearest-neighbor-and-preproc.ipynb 110-parametric-gaussian-classifier.ipynb 110-perceptrons.ipynb 111-linear-lsq.ipynb 111-normal-decision-regions.ipynb 112-logistic-regression-grad.ipynb 115-linear-to-nonlinear.ipynb 120-parametric-gaussian-classifier.ipynb 121-normal-decision-regions.ipynb 125-perceptrons.ipynb 126-linear-lsq.ipynb 127-logistic-regression-grad.ipynb 128-linear-to-nonlinear.ipynb
+description:
+cleanup
+
+
+changeset:   16:dff50e2f4d8b
+user:        Tom <tmb@ixion.local>
+date:        Mon Jun 10 00:48:59 2013 +0200
+files:       037-grayscale-morphology.ipynb 038-1d-grayscale-morphology.ipynb 042-distance-transform.ipynb 045-labeling.ipynb 049-thresholding.ipynb lw.tex misc/049-thresholding.ipynb
+description:
+lecture
+
+
+changeset:   15:1f4ce6a32c3c
+user:        Tom <tmb@ixion.local>
+date:        Mon Jun 03 11:51:40 2013 +0200
+files:       033-document-normalization.ipynb 035-binary-morphology.ipynb 037-grayscale-morphology.ipynb 045-labeling.ipynb lw.tex
+description:
+cleanup
+
+
+changeset:   14:d9d1b2e5a56c
+user:        Tom <tmb@ixion.local>
+date:        Mon Jun 03 03:02:29 2013 +0200
+files:       030-nonlinear-filters.ipynb 033-document-normalization.ipynb 035-binary-morphology.ipynb 037-grayscale-morphology.ipynb 040-nonlinear-filters.ipynb 042-distance-transform.ipynb Untitled0.ipynb Untitled1.ipynb
+description:
+cleanup
+
+
+changeset:   13:27a7f82d1bed
+user:        Tom <tmb@ixion.local>
+date:        Mon Jun 03 02:39:32 2013 +0200
+files:       HW - Frequency Modulation and Encoding.ipynb hw-frequency-modulation.ipynb
+description:
+cleanup
+
+
+changeset:   12:aa841c9fc6d2
+user:        Tom <tmb@ixion.local>
+date:        Mon Jun 03 02:39:09 2013 +0200
+files:       027-image-compression.ipynb 160-fourier-transform.ipynb Frequency Modulation and Encoding.ipynb HW - Frequency Modulation and Encoding.ipynb Untitled0.ipynb Untitled1.ipynb
+description:
+added JPEG
+
+
+changeset:   11:e41225ce8f98
+user:        Tom <tmb@ixion.local>
+date:        Mon May 27 13:09:14 2013 +0200
+files:       020-frequency-domain.ipynb 025-fourier-transform.ipynb 030-template-matching.ipynb 040-nonlinear-filters.ipynb 070-template-matching.ipynb lw.tex
+description:
+updated for lecture
+
+
+changeset:   10:8ac8f5ba4396
+user:        Tom <tmb@ixion.local>
+date:        Mon May 13 12:54:26 2013 +0200
+files:       020-frequency-domain.ipynb 025-fourier-transform.ipynb 160-fourier-transform.ipynb
+description:
+updated for fourier
+
+
+changeset:   9:830cd5ebeacc
+user:        Tom <tmb@ixion.local>
+date:        Mon May 06 11:44:58 2013 +0200
+files:       003-cameras-and-eyes.ipynb 010-linear-filters.ipynb 012-gradient-filters.ipynb 014-anisotropic-filters.ipynb 020-frequency-domain.ipynb 030-template-matching.ipynb hw-edge-detection.ipynb
+description:
+added more notebooks
+
+
+changeset:   8:184d3e30b14a
+user:        Tom <tmb@ixion.local>
+date:        Mon Apr 15 13:14:51 2013 +0200
+files:       000-introduction.ipynb Makefile
+description:
+small fixes
+
+
+changeset:   7:cf2da5a773ff
+user:        Tom <tmb@ixion.local>
+date:        Mon Apr 15 12:31:02 2013 +0200
+files:       000-introduction.ipynb 003-cameras-and-eyes.ipynb 005-images-as-arrays.ipynb 250-color.ipynb Makefile lw.tex
+description:
+updated for lecture
+
+
+changeset:   6:08b7ba2d39ff
+user:        Tom <tmb@ixion.local>
+date:        Mon Apr 15 11:58:26 2013 +0200
+files:       010-linear-filters.ipynb 250-color.ipynb Makefile mkindex
+description:
+smallish changes
+
+
+changeset:   5:ab433be3c140
+user:        Tom <tmb@ixion.local>
+date:        Wed Apr 10 04:06:31 2013 +0200
+files:       Makefile lw.pdf lw.tex lw.toc temp.png
+description:
+cleanup
+
+
+changeset:   4:fd3418e33149
+user:        Tom <tmb@ixion.local>
+date:        Tue Apr 09 03:54:23 2013 +0200
+files:       Makefile lw.pdf lw.toc temp.png
+description:
+cleanup
+
+
+changeset:   3:5998c1512a95
+user:        Tom <tmb@ixion.local>
+date:        Tue Apr 09 03:25:54 2013 +0200
+files:       200-intro-python.ipynb 250-color.ipynb lw.tex
+description:
+added color etc
+
+
+changeset:   2:12a50876fb12
+user:        Tom <tmb@ixion.local>
+date:        Tue Apr 09 03:24:41 2013 +0200
+files:       010-linear-filters.ipynb 012-gradient-filters.ipynb 014-anisotropic-filters.ipynb 02-images.ppt 020-frequency-domain.ipynb 030-template-matching.ipynb 040-nonlinear-filters.ipynb 042-distance-transform.ipynb 045-labeling.ipynb 049-thresholding.ipynb 101-intro-classification.ipynb 102-nearest-neighbor-and-preproc.ipynb 110-perceptrons.ipynb 111-linear-lsq.ipynb 112-logistic-regression-grad.ipynb 115-linear-to-nonlinear.ipynb 120-parametric-gaussian-classifier.ipynb 121-normal-decision-regions.ipynb 130-kmeans.ipynb 135-simple-pca.ipynb 140-summary-classifiers.ipynb 150-speech-worksheet.ipynb 160-fourier-transform.ipynb 170-dtw.ipynb 180-markov-models.ipynb 185-hmm-ocr.ipynb Figures-intro/bayer-pattern.png Figures-intro/bear-illum-1.png Figures-intro/bear-illum-2.png Figures-intro/bear-illum-3.png Figures-intro/bear-illum-4.png Figures-intro/camera-model-2.png Figures-intro/camera-model.png Figures-intro/ccd-sensor.png Figures-intro/cie-colorspace.png Figures-intro/cie-sunlight.png Figures-intro/cmyk-equations.png Figures-intro/cmyk-formulas.png Figures-intro/cmyk.png Figures-intro/color-channels-historical.png Figures-intro/color-circle.png Figures-intro/color-cube-schematic.png Figures-intro/color-pyramid.png Figures-intro/color-space-cones.png Figures-intro/colorcube.png Figures-intro/common-rgb.png Figures-intro/cube-color-1-revealed.png Figures-intro/cube-color-1.png Figures-intro/cube-color-2-revealed.png Figures-intro/cube-color-2.png Figures-intro/eye.png Figures-intro/gamut.png Figures-intro/gimp-a-channel.png Figures-intro/gimp-channel-decompose.png Figures-intro/gimp-hsv.png Figures-intro/grey-quant-skull-2.png Figures-intro/grey-quant-skull.png Figures-intro/human-cones.png Figures-intro/illustration-level-quant.png Figures-intro/image-formation.png Figures-intro/intensity-quantization.png Figures-intro/lcd-spectra.png Figures-intro/lenslet.png Figures-intro/metameric-patch.png Figures-intro/metamerism.png Figures-intro/newton-purple.png Figures-intro/prism.png Figures-intro/reflected-light.png Figures-intro/rgb-color-display.png Figures-intro/rgb-pixel-lcd.png Figures-intro/rose-spatial-quant.png Figures-intro/sensitivity-curves.png Figures-intro/sensitivity.png Figures-intro/shadow-illusion.png Figures-intro/spatial-quantization.png Figures-intro/spectrum.png Figures-intro/transformation-imaging.png Figures-intro/visible-spectrum.png Makefile im-10-linear-filters.ipynb im-12-gradient-filters.ipynb im-14-anisotropic-filters.ipynb im-20-frequency-domain.ipynb im-30-template-matching.ipynb im-40-nonlinear-filters.ipynb im-42-distance-transform.ipynb im-45-labeling.ipynb im-49-thresholding.ipynb improc.pdf intro-images.odp lw.pdf lw.tex lw.toc markov-models.odp misc/intro-images.odp misc/openfst-misc.odp pr-01-intro-classification.ipynb pr-02-nearest-neighbor-and-preproc.ipynb pr-10-perceptrons.ipynb pr-11-linear-lsq.ipynb pr-12-logistic-regression-grad.ipynb pr-15-linear-to-nonlinear.ipynb pr-20-parametric-gaussian-classifier.ipynb pr-21-normal-decision-regions.ipynb pr-30-kmeans.ipynb pr-35-simple-pca.ipynb pr-40-summary-classifiers.ipynb pr-50-speech-worksheet.ipynb pr-60-fourier-transform.ipynb pr-70-dtw.ipynb pr-80-markov-models.ipynb pr-85-hmm-ocr.ipynb temp.png
+description:
+cleanup
+
+
+changeset:   1:04bdeb513e6d
+user:        Tom <tmb@ixion.local>
+date:        Tue Apr 09 00:19:55 2013 +0200
+files:       02-images.odp Makefile cooley-tukey.ipynb dct-example.ipynb dtw-synchronous.ipynb dtw.ipynb fourier-transform.ipynb hmm-ocr.ipynb im-49-thresholding.ipynb intro-images.odp intro-mlp.ipynb lw.pdf lw.tex markov-models.ipynb misc/cooley-tukey.ipynb misc/dct-example.ipynb misc/dtw-synchronous.ipynb misc/intro-mlp.ipynb misc/noise-generation.ipynb misc/pencil-sketch.ipynb misc/temp-speech-hacks.ipynb misc/temp-speech-worksheet.ipynb noise-generation.ipynb pencil-sketch.ipynb pr-40-summary-classifiers.ipynb pr-50-speech-worksheet.ipynb pr-60-fourier-transform.ipynb pr-70-dtw.ipynb pr-80-markov-models.ipynb pr-85-hmm-ocr.ipynb pr-90-summary-classifiers.ipynb speech-worksheet.ipynb temp-speech-hacks.ipynb temp-speech-worksheet.ipynb thresholding.ipynb
+description:
+cleanup
+
+
+changeset:   0:0a640016a839
+user:        Tom <tmb@ixion.local>
+date:        Sun Apr 07 10:30:07 2013 +0200
+files:       02-images.odp 02-images.ppt Figures/states-1.png Figures/states-1.xcf Figures/states-2.png Figures/states-3.png Figures/states-4.png Initialen.jpg Makefile Professor_X_03.jpg bookpage.jpg bridge.jpg cooley-tukey.ipynb dct-example.ipynb dtw-synchronous.ipynb dtw.ipynb floorplan.png fourier-transform.ipynb hmm-ocr.ipynb im-10-linear-filters.ipynb im-12-gradient-filters.ipynb im-14-anisotropic-filters.ipynb im-20-frequency-domain.ipynb im-30-template-matching.ipynb im-40-nonlinear-filters.ipynb im-42-distance-transform.ipynb im-45-labeling.ipynb imagenoise.jpg improc.pdf intro-mlp.ipynb lexx.jpg lexx.png lexx2.jpg lexx2.png lw.pdf lw.tex lw.toc markov-models.ipynb markov-models.odp mnist.h5 msak0_306.ema msak0_306.epg msak0_306.lab msak0_306.lar msak0_306.wav noise-generation.ipynb ocr-hw/HOMEWORK ocr-hw/c.png ocr-hw/charread.ipynb ocr-hw/charread.py ocr-hw/charread.pyc ocr-hw/t.png ocr-hw/w.png ocr-hw/w.txt pencil-sketch.ipynb pr-01-intro-classification.ipynb pr-02-nearest-neighbor-and-preproc.ipynb pr-10-perceptrons.ipynb pr-11-linear-lsq.ipynb pr-12-logistic-regression-grad.ipynb pr-15-linear-to-nonlinear.ipynb pr-20-parametric-gaussian-classifier.ipynb pr-21-normal-decision-regions.ipynb pr-30-kmeans.ipynb pr-35-simple-pca.ipynb pr-90-summary-classifiers.ipynb river.jpg simple-ocr/small1.png simple-ocr/template-A.png simple-ocr/template-E.png simple-ocr/template-I.png speech-worksheet.ipynb temp-speech-hacks.ipynb temp-speech-worksheet.ipynb temp.png test.wav test2.wav testimage.jpg testimage.png testpage.png testpar.png thresholding.ipynb tmp.png
+description:
+initial
+
+

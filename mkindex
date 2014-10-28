@@ -1,0 +1,41 @@
+#!/usr/bin/python
+
+import os,sys,os.path,glob,re,markdown
+
+print markdown.markdown("""
+Lecture Notes: Learning and Perception
+-----------------------
+
+This is the lecture note and slide archive for the Learning and Perception course.
+For the course pages themselves, please go to [lw.iupr.com](http://lw.iupr.com/).
+
+[All the lecture notes are available in PDF Format](lw.pdf). This is a single, large
+PDF file that contains the content from the slides/worksheets, plus some additional 
+text.
+
+Below are all the notebooks and corresponding slides from the lecture.
+
+_Note that slides and notes will get updated throughout the class_
+
+""")
+
+print "<table>"
+for nb in sorted(glob.glob("[0-9]*.ipynb")):
+    with open(nb) as stream: text = stream.read()
+    title = re.findall(r"Title:\s+([^\\\"]*)",text)
+    base,_ = os.path.splitext(nb)
+    if len(title)>0: title = title[0]
+    else: 
+        title = base
+        title = re.sub('^\d+-','',title)
+        title = re.sub('[_-]+',' ',title)
+    print "<tr>"
+    print "<td>{}</td>".format(title)
+    print "<td><a href='{}'>notebook</a></td>".format(nb)
+    print "<td><a href='{}'>slides</a></td>".format(base+"-slides.pdf")
+    print "</td>"
+print "</table>"
+
+print """
+</body>
+"""
